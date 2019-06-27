@@ -1,6 +1,6 @@
 # Breakout
 
-![](ex/ex1.png)
+<img src="https://github.com/oddek/Breakout/blob/master/ex/ex1.png" width="50%">
 
 Simple breakout clone made with SFML for learning purposes.
 
