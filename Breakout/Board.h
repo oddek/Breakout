@@ -21,7 +21,7 @@ public:
 	int width = 1580;
 	int height = 1000;
 	
-	int level = 3;
+	int level = 0;
 	int points = 0;
 	int lives = 3;
 	int max_level = 5;

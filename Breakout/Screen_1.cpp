@@ -37,7 +37,11 @@ int Screen_1::Run(sf::RenderWindow& window)
 		while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed)
+			{
 				window.close();
+				return -1;
+			}
+				
 			if (event.type == sf::Event::KeyPressed)
 			{
 				switch (event.key.code)
